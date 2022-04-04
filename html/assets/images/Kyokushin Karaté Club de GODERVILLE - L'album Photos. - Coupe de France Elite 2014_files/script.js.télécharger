@@ -1,0 +1,815 @@
+var skeleton = {
+	"id": "attached_menuinter_light",
+	"name": "Actée",
+	"features": {
+		"zen": "z80",
+		"margin": "big",
+		"bg": "light",
+		"header": { "h": "medium", "w": "content", "bg": "light" },
+		"main": { "w": "content", "bg": "light" },
+		"others": { "variant": "light" }
+	},
+	"fda": [ "inform-members:70", "new-partners:50", "new-members:90", "friendly:90", "serious:70", "self-control:80", "fair-play:90", "feminine:90", "recreative:80", "b-community:80", "b-showroom:60", "b-friendly:90", "b-nature:90", "b-serious:100", "b-art:80", "b-esthetic:100", "b-modern:70" ],
+	"properties": [ "banner-image", "bgsite-image" ],
+	"zen": "z80",
+	"templates": {
+		"templates": [ "default", "home", "prehome" ],
+		"content": {
+			"album": { "service": "p4", "template": "default" },
+			"article": { "service": "p5", "template": "default" },
+			"contact": { "service": "p6", "template": "default" },
+			"home": { "service": "p3", "template": "home" },
+			"news": { "service": "p7", "template": "default" },
+			"organization": { "service": "p8", "template": "default" },
+			"photos": { "service": "p9", "template": "default" },
+			"team": { "service": "p10", "template": "default" }
+		},
+		"footer": "p2",
+		"previews": {
+			"preview": { "service": "p11", "template": "home" }
+		}
+	},
+	"imgSection": {
+		"k-0": { "img-url": "/services/skeletons/dev/diagonales.jpg", "title": "bg-site" },
+		"h-0": { "title": "bg-banner" }
+	},
+	"footercolor": "graylight",
+	"jcss": [
+		{ "selector": ".sk-hover:hover", "style": "transition-delay: 0s; transition-duration: 0.3s; transition-property: all; transition-timing-function: ease;" },
+		{ "selector": ".sk-rs:hover", "style": "color: bw-jcssbg; text-decoration : none; " },
+		{ "selector": ".sk-contact", "style": "margin-right:20px" },
+		{ "selector": ".sk-social", "style": "font-size: 20px; vertical-align:middle" },
+		{ "selector": ".sk-rs", "style": "font-style: normal;" },
+		{ "selector": ".sk-s", "style": "display: inline-block; background: white; border: solid 1px ; border-color: gbw2-jcssbg; width:170px" },
+		{ "selector": ".sk-st", "style": "background: transparent; border: none; padding : 0px; padding-left: 8px; width: 123px; height: 34px; color : #999 ; vertical-align: middle" },
+		{ "selector": ".sk-sbtn", "style": "color : #666; border: 0; padding: 6px 6px; background: transparent; font-size :21px; vertical-align: middle;" },
+		{ "selector": ".sk-sbtn:hover", "style": "color: black; " },
+		{ "selector": ".sk-hover2:hover", "style": "transition-delay: 0s; transition-duration: 0.3s; transition-property: all; transition-timing-function: ease;" },
+		{ "selector": ".sk-rs2:hover", "style": "color: bw-jcssbg; text-decoration : none; " },
+		{ "selector": ".sk-sbtn2", "style": "color : #666;" }
+	],
+	"bannerSections": {
+		"h-0": {
+			"h-0-0": { "sec": "secp-h0-0", "params": { "wide": false, "zindex": "52" } },
+			"h-0-1": { "sec": "secp-h0-1", "params": { "wide": false, "zindex": "52" } },
+			"h-0-2": { "sec": "secp-h0-2", "params": { "wide": false, "zindex": "52" } },
+			"h-0-3": { "sec": "secp-h0-3", "params": { "wide": false, "zindex": "52" } },
+			"h-0-xs": { "sec": "secp-h0-0", "params": { "wide": false, "zindex": "52", "height": "60px" } }
+		},
+		"h-1": {
+			"h-1-0": { "sec": "secp-nav0", "params": { "wide": false, "zindex": "53" } },
+			"h-1-xs": { "sec": "secp-nav0", "params": { "wide": false, "zindex": "53", "height": "48px" } }
+		}
+	},
+	"defaultBanner": {
+		"id": "b0",
+		"sections": { "h-0": "h-0-0", "h-1": "h-1-0" }
+	},
+	"banners": {
+		"b0": "b0_ea",
+		"b1": "b1_ea",
+		"b2": "b2_ea",
+		"b3": "b3_ea",
+		"b0_e": "b0_ea",
+		"b1_e": "b1_ea",
+		"b2_e": "b2_ea",
+		"b3_e": "b3_ea",
+		"b0_a": "b0_ea",
+		"b1_a": "b1_ea",
+		"b2_a": "b2_ea",
+		"b3_a": "b3_ea",
+		"b0_ea": {
+			"name": "Nom du club, sans logo",
+			"id": "b0_ea",
+			"sections": {
+				"h-0": [ "h-0-0" ],
+				"h-1": [ "h-1-0" ]
+			},
+			"content": [
+				{ "kind": "wsg", "left": "30px", "width": "500px", "height": "100px", "target": "h-0", "rpd": "rpdp-h0", "html": "b0_name" },
+				{ "kind": "wsg", "top": "auto", "bottom": "25px", "left": "auto", "right": "30px", "target": "h-0", "rpd": "rpdp-h0", "html": "b0_social_e" },
+				{ "kind": "menuh", "top": "0px", "left": "30px", "width": "950px", "height": "50px", "target": "h-1", "rpd": "rpdmenu-main" },
+				{ "kind": "wsg", "top": "30px", "left": "auto", "right": "30px", "target": "h-0", "rpd": "rpdp-h0", "html": "b0_search" },
+				{ "kind": "pimg", "mode": "affiliation", "top": "0px", "left": "1005px", "size": "center left", "height": "40px", "width": "100px", "target": "h-0", "url": "/services/skeletons/dev/logos/ffbb.png", "rpd": "rpdp-h0", "zindex": "50" }
+			]
+		},
+		"b1_ea": {
+			"name": "Logo avec nom du club",
+			"id": "b1_ea",
+			"sections": {
+				"h-0": [ "h-0-0" ],
+				"h-1": [ "h-1-0" ]
+			},
+			"content": [
+				{ "kind": "pimg", "top": "30px", "left": "30px", "size": true, "width": "80px", "target": "h-0", "url": "/services/skeletons/dev/logos/monaco-74x155.png", "rpd": "rpdp-h0", "zindex": "50" },
+				{ "kind": "wsg", "left": "112px", "width": "398px", "height": "100px", "target": "h-0", "rpd": "rpdp-h0", "html": "b0_name" },
+				{ "kind": "wsg", "top": "auto", "bottom": "25px", "left": "auto", "right": "30px", "target": "h-0", "rpd": "rpdp-h0", "html": "b0_social_e" },
+				{ "kind": "menuh", "top": "0px", "left": "30px", "width": "950px", "height": "50px", "target": "h-1", "rpd": "rpdmenu-main" },
+				{ "kind": "wsg", "top": "30px", "left": "auto", "right": "30px", "target": "h-0", "rpd": "rpdp-h0", "html": "b0_search" },
+				{ "kind": "pimg", "mode": "affiliation", "top": "0px", "left": "1005px", "size": "center left", "height": "40px", "width": "100px", "target": "h-0", "url": "/services/skeletons/dev/logos/om-110x110.png", "rpd": "rpdp-h0", "zindex": "50" }
+			]
+		},
+		"b2_ea": {
+			"name": "Logo, sans nom du club",
+			"id": "b2_ea",
+			"sections": {
+				"h-0": [ "h-0-0" ],
+				"h-1": [ "h-1-0" ]
+			},
+			"content": [
+				{ "kind": "pimg", "top": "30px", "left": "30px", "size": true, "width": "80px", "target": "h-0", "url": "/services/skeletons/dev/logos/monaco-74x155.png", "rpd": "rpdp-h0", "zindex": "50" },
+				{ "kind": "wsg", "top": "auto", "bottom": "25px", "left": "auto", "right": "30px", "target": "h-0", "rpd": "rpdp-h0", "html": "b0_social_e" },
+				{ "kind": "menuh", "top": "0px", "left": "30px", "width": "950px", "height": "50px", "target": "h-1", "rpd": "rpdmenu-main" },
+				{ "kind": "wsg", "top": "30px", "left": "auto", "right": "30px", "target": "h-0", "rpd": "rpdp-h0", "html": "b0_search" },
+				{ "kind": "pimg", "mode": "affiliation", "top": "0px", "left": "1005px", "size": "center left", "height": "40px", "width": "100px", "target": "h-0", "url": "/services/skeletons/dev/logos/fff-156x156.png", "rpd": "rpdp-h0", "zindex": "50" }
+			]
+		},
+		"b3_ea": {
+			"name": "Logo horizontal",
+			"id": "b3_ea",
+			"sections": {
+				"h-0": [ "h-0-0" ],
+				"h-1": [ "h-1-0" ]
+			},
+			"content": [
+				{ "kind": "pimg", "top": "30px", "left": "30px", "size": "left center", "width": "500px", "height": "80px", "target": "h-0", "url": "/services/skeletons/dev/logos/monaco-301x83.png", "rpd": "rpdp-h0", "zindex": "50" },
+				{ "kind": "wsg", "top": "auto", "bottom": "25px", "left": "auto", "right": "30px", "target": "h-0", "rpd": "rpdp-h0", "html": "b0_social_e" },
+				{ "kind": "menuh", "top": "0px", "left": "30px", "width": "950px", "height": "50px", "target": "h-1", "rpd": "rpdmenu-main" },
+				{ "kind": "wsg", "top": "30px", "left": "auto", "right": "30px", "target": "h-0", "rpd": "rpdp-h0", "html": "b0_search" },
+				{ "kind": "pimg", "mode": "affiliation", "top": "0px", "left": "1005px", "size": "center left", "height": "40px", "width": "100px", "target": "h-0", "url": "/services/skeletons/dev/logos/ffbb.png", "rpd": "rpdp-h0", "zindex": "50" }
+			]
+		}
+	},
+	"defaultRender": {
+		"sk-ad-top": { "sec": "secp-ad0", "params": { "wide": true, "padding-top": "8px", "padding-bottom": "8px" } },
+		"sk-ad-bottom": { "params": { "wide": true, "padding-top": "8px", "padding-bottom": "8px" } },
+		"sk-ad-quomodo": { "params": { "wide": true, "padding-top": "8px" } },
+		"hk-0": { "sec": "secp-hk0", "params": { "wide": true } },
+		"hk-1": { "params": { "wide": false, "zindex": "53" } },
+		"k-0": { "sec": "secp-bg0", "params": { "wide": true, "xs-margin": "10px" } },
+		"k-1": { "sec": "secp-page0", "params": { "wide": false } },
+		"ph-0": "ph-0-0",
+		"ph-1": {
+			"sec": "secp-ph1",
+			"params": { "wide": false },
+			"formats": [
+				{ "outerMargin": "30px 30px 0px 30px", "innerMargin": 30.0, "ncols": 1.0 },
+				false
+			]
+		},
+		"p-0": {
+			"sec": "secp-p0",
+			"params": { "wide": false },
+			"formats": [
+				{ "outerMargin": 30.0, "innerMargin": 30.0, "ncols": 3.0 }
+			]
+		},
+		"f-0": {
+			"sec": "secp-f0",
+			"params": { "wide": false },
+			"formats": [
+				{ "outerMargin": 30.0, "innerMargin": 30.0, "ncols": 10.0 },
+				false
+			]
+		}
+	},
+	"render": {
+		"prehome": {
+			"p-0": {
+				"formats": [
+					false,
+					{ "innerMargin": 40.0, "ncols": 4.0, "outerMargin": "0px" }
+				],
+				"params": { "wide": false }
+			},
+			"prehomek-0": { "params": { "wide": false } },
+			"site": { "params": { "img-url": "/services/skeletons/dev/diagonales.jpg", "wide": true }, "sec": "secp-prehome" },
+			"sk-ad-bottom": { "params": { "padding-bottom": "8px", "padding-top": "8px", "wide": true } },
+			"sk-ad-top": { "params": { "padding-bottom": "8px", "padding-top": "8px", "wide": true } }
+		}
+	},
+	"secrpds": [
+		{
+			"id": "secp-bg0",
+			"colorset": "cs14",
+			"image": "img24",
+			"filter": "filt3",
+			"position": "pos3",
+			"background": "bg0",
+			"border": "bd0",
+			"shadow": "sh0"
+		},
+		{
+			"id": "secp-page0",
+			"colorset": "cs1",
+			"image": "img0",
+			"background": "bg0",
+			"border": "bd0",
+			"shadow": "sh1"
+		},
+		{
+			"id": "secp-hk0",
+			"colorset": "cs1",
+			"image": "img0",
+			"background": "bg0",
+			"border": "bd0",
+			"shadow": "sh0"
+		},
+		{
+			"id": "secp-logo0",
+			"colorset": "cs0",
+			"image": "img2",
+			"background": "bg0",
+			"border": "bd0",
+			"shadow": "sh0"
+		},
+		{
+			"id": "secp-h0-0",
+			"colorset": "cs1",
+			"image": "img0",
+			"background": "bg0",
+			"border": "bd0",
+			"shadow": "sh0",
+			"params": { "height": "140px" }
+		},
+		{
+			"id": "secp-h0-1",
+			"colorset": "cs1",
+			"image": "img0",
+			"background": "bg2",
+			"border": "bd0",
+			"shadow": "sh0",
+			"params": { "height": "140px" }
+		},
+		{
+			"id": "secp-h0-2",
+			"colorset": "cs1",
+			"image": "img2",
+			"position": "pos0",
+			"background": "bg0",
+			"border": "bd0",
+			"shadow": "sh0",
+			"params": { "height": "140px" }
+		},
+		{
+			"id": "secp-h0-3",
+			"colorset": "cs1",
+			"image": "img1",
+			"position": "pos0",
+			"background": "bg0",
+			"border": "bd0",
+			"shadow": "sh0",
+			"params": { "height": "140px" }
+		},
+		{
+			"id": "secp-nav0",
+			"colorset": "cs7",
+			"image": "img0",
+			"background": "bg0",
+			"border": "bd0",
+			"shadow": "sh0",
+			"params": { "height": "50px" }
+		},
+		{
+			"id": "secp-ph0",
+			"colorset": "cs1",
+			"image": "img0",
+			"background": "bg0",
+			"border": "bd0",
+			"shadow": "sh0"
+		},
+		{
+			"id": "secp-ph0-img",
+			"colorset": "cs1",
+			"image": "img8",
+			"background": "bg0",
+			"border": "bd0",
+			"shadow": "sh0",
+			"params": { "height": "390px" }
+		},
+		{
+			"id": "secp-ph1",
+			"colorset": "cs1",
+			"image": "img0",
+			"position": "pos0",
+			"background": "bg0",
+			"border": "bd0",
+			"shadow": "sh0",
+			"params": { "max-height": "220px" }
+		},
+		{
+			"id": "secp-p0",
+			"colorset": "cs1",
+			"image": "img0",
+			"background": "bg0",
+			"border": "bd0",
+			"shadow": "sh0"
+		},
+		{
+			"id": "secp-side0",
+			"colorset": "cs21",
+			"image": "img0",
+			"background": "bg0",
+			"border": "bd8",
+			"shadow": "sh0"
+		},
+		{
+			"id": "secp-f0",
+			"colorset": "cs15",
+			"image": "img0",
+			"background": "bg0",
+			"border": "bd5",
+			"shadow": "sh0"
+		},
+		{
+			"id": "secp-ad0",
+			"colorset": "cs0",
+			"image": "img0",
+			"background": "bg0",
+			"border": "bd0",
+			"shadow": "sh0",
+			"params": { "height": "90px" }
+		},
+		{
+			"id": "secp-prehome",
+			"colorset": "cs0",
+			"image": "img1",
+			"background": "bg0",
+			"border": "bd0",
+			"shadow": "sh0"
+		}
+	],
+	"rpds": [
+		{
+			"id": "rpdp-h0",
+			"rpd": {
+				"format": "banner",
+				"model": "m0",
+				"typo": "t5",
+				"colorset": "cs0",
+				"button": "btn0",
+				"align": "al0",
+				"biheader": "bh0",
+				"icon": "ico0",
+				"outline": "out0",
+				"image": "img0",
+				"params": { "altbgcolor": "white" }
+			}
+		},
+		{
+			"id": "rpdp-nav0",
+			"rpd": {
+				"format": "banner",
+				"model": "m0",
+				"typo": "t5",
+				"colorset": "cs2",
+				"button": "btn0",
+				"align": "al0",
+				"biheader": "bh0",
+				"icon": "ico0",
+				"outline": "out0",
+				"image": "img0",
+				"params": {
+					"altbgcolor": "c1",
+					"h4": { "textsize": "18px" }
+				}
+			}
+		},
+		{
+			"id": "rpdp-phtitle0",
+			"rpd": {
+				"format": "title1",
+				"model": "m0",
+				"typo": "t2",
+				"colorset": "cs0",
+				"button": "btn0",
+				"align": "al0",
+				"biheader": "bh0",
+				"icon": "ico0",
+				"outline": "out0",
+				"image": "img0",
+				"params": { "altbgcolor": "white" }
+			}
+		},
+		{
+			"id": "rpdp-phtext0",
+			"rpd": {
+				"format": "content",
+				"model": "m1",
+				"typo": "t2",
+				"colorset": "cs0",
+				"button": "btn0",
+				"align": "al0",
+				"biheader": "bh1",
+				"icon": "ico0",
+				"outline": "out0",
+				"image": "img0",
+				"params": { "altbgcolor": "white" }
+			}
+		},
+		{ "id": "rpdp-phtext1", "rpd": "rpdp-phtext0" },
+		{
+			"id": "rpdp-pagetitle0",
+			"rpd": {
+				"format": "title1",
+				"model": "m0",
+				"typo": "t3",
+				"colorset": "cs0",
+				"button": "btn0",
+				"align": "al0",
+				"biheader": "bh0",
+				"icon": "ico0",
+				"outline": "out0",
+				"image": "img0",
+				"params": { "altbgcolor": "white" }
+			}
+		},
+		{ "id": "rpdp-pagetitle1", "rpd": "rpdp-pagetitle0" },
+		{
+			"id": "rpdp-sectitle0",
+			"rpd": {
+				"format": "title2",
+				"model": "m4",
+				"typo": "t0",
+				"colorset": "cs1",
+				"button": "btn0",
+				"align": "al1",
+				"biheader": "bh0",
+				"icon": "ico0",
+				"outline": "out0",
+				"image": "img0",
+				"params": { "altbgcolor": "white" }
+			},
+			"desc": "c2",
+			"usage": "c"
+		},
+		{
+			"id": "rpdp-sectitle1",
+			"rpd": {
+				"format": "title2",
+				"model": "m4",
+				"typo": "t0",
+				"colorset": "cs0",
+				"button": "btn0",
+				"align": "al1",
+				"biheader": "bh0",
+				"icon": "ico0",
+				"outline": "out0",
+				"image": "img0",
+				"params": { "altbgcolor": "white" }
+			},
+			"desc": "c1",
+			"usage": "c"
+		},
+		{
+			"id": "rpdp-main0",
+			"rpd": {
+				"format": "content",
+				"model": "m1",
+				"typo": "t0",
+				"colorset": "cs0",
+				"button": "btn0",
+				"align": "al0",
+				"biheader": "bh1",
+				"icon": "ico0",
+				"outline": "out0",
+				"image": "img0",
+				"params": { "altbgcolor": "white" }
+			},
+			"desc": "c1",
+			"usage": "c"
+		},
+		{
+			"id": "rpdp-main1",
+			"rpd": {
+				"format": "content",
+				"model": "m1",
+				"typo": "t0",
+				"colorset": "cs1",
+				"button": "btn0",
+				"align": "al0",
+				"biheader": "bh1",
+				"icon": "ico0",
+				"outline": "out0",
+				"image": "img0",
+				"params": { "altbgcolor": "white" }
+			},
+			"desc": "c2",
+			"usage": "c"
+		},
+		{
+			"id": "rpdp-sum0",
+			"rpd": {
+				"format": "content",
+				"model": "m1",
+				"typo": "t1",
+				"colorset": "cs0",
+				"button": "btn0",
+				"align": "al0",
+				"biheader": "bh1",
+				"icon": "ico0",
+				"outline": "out0",
+				"image": "img0",
+				"params": { "altbgcolor": "white" }
+			},
+			"desc": "c1",
+			"usage": "c"
+		},
+		{
+			"id": "rpdp-sum1",
+			"rpd": {
+				"format": "content",
+				"model": "m1",
+				"typo": "t1",
+				"colorset": "cs1",
+				"button": "btn0",
+				"align": "al0",
+				"biheader": "bh1",
+				"icon": "ico0",
+				"outline": "out0",
+				"image": "img0",
+				"params": { "altbgcolor": "white" }
+			},
+			"desc": "c2",
+			"usage": "c"
+		},
+		{
+			"id": "rpdp-side0",
+			"rpd": {
+				"format": "content",
+				"model": "m1",
+				"typo": "t1",
+				"colorset": "cs14",
+				"button": "btn0",
+				"align": "al0",
+				"biheader": "bh1",
+				"icon": "ico0",
+				"outline": "out0",
+				"image": "img0",
+				"params": { "altbgcolor": "white" }
+			},
+			"desc": "c1",
+			"usage": "c"
+		},
+		{
+			"id": "rpdp-side1",
+			"rpd": {
+				"format": "content",
+				"model": "m1",
+				"typo": "t1",
+				"colorset": "cs15",
+				"button": "btn0",
+				"align": "al0",
+				"biheader": "bh1",
+				"icon": "ico0",
+				"outline": "out0",
+				"image": "img0",
+				"params": { "altbgcolor": "white" }
+			},
+			"desc": "c2",
+			"usage": "c"
+		},
+		{
+			"id": "rpdp-art0",
+			"rpd": {
+				"format": "content",
+				"model": "m0",
+				"typo": "t3",
+				"colorset": "cs0",
+				"button": "btn0",
+				"align": "al0",
+				"biheader": "bh0",
+				"icon": "ico0",
+				"outline": "out0",
+				"image": "img0",
+				"params": { "altbgcolor": "white" }
+			}
+		},
+		{
+			"id": "rpdp-info0",
+			"rpd": {
+				"format": "content",
+				"model": "m0",
+				"typo": "t0",
+				"colorset": "cs14",
+				"button": "btn0",
+				"align": "al0",
+				"biheader": "bh0",
+				"icon": "ico0",
+				"outline": "out0",
+				"image": "img0",
+				"params": { "altbgcolor": "white" }
+			}
+		},
+		{
+			"id": "rpdp-card0",
+			"rpd": {
+				"format": "content",
+				"model": "m1",
+				"typo": "t0",
+				"colorset": "cs8",
+				"button": "btn0",
+				"align": "al0",
+				"biheader": "bh0",
+				"icon": "ico0",
+				"outline": "out0",
+				"image": "img0",
+				"params": { "altbgcolor": "white" }
+			}
+		},
+		{
+			"id": "rpdp-f0",
+			"rpd": {
+				"format": "content",
+				"model": "m0",
+				"typo": "t1",
+				"colorset": "cs0",
+				"button": "btn0",
+				"align": "al0",
+				"biheader": "bh0",
+				"icon": "ico0",
+				"outline": "out0",
+				"image": "img0",
+				"params": { "altbgcolor": "graylight" }
+			}
+		},
+		{ "id": "rpdp-f1", "rpd": "rpdp-f0" },
+		{
+			"id": "rpdp-ftitle0",
+			"rpd": {
+				"format": "title2",
+				"model": "m0",
+				"typo": "t1",
+				"colorset": "cs0",
+				"button": "btn0",
+				"align": "al0",
+				"biheader": "bh0",
+				"icon": "ico0",
+				"outline": "out0",
+				"image": "img0",
+				"params": { "altbgcolor": "graylight" }
+			}
+		},
+		{ "id": "rpdp-ftitle1", "rpd": "rpdp-ftitle0" },
+		{ "id": "rpdp-forum", "rpd": "rpdp-art0" },
+		{ "id": "rpdp-shareboard", "rpd": "rpdp-side0" }
+	],
+	"menurpds": [
+		{
+			"id": "rpdmenu-main",
+			"rpd": { "model": "m0", "colorset": "cs3", "typo": "t1", "state": "sta4", "separator": "sep0", "arrow": "arr0", "format": "for0", "shadow": "sh0", "align": "al0", "altbgcolor": "c1" }
+		}
+	],
+	"contentSections": {
+		"ph-0": {
+			"ph-0-0": {
+				"sec": "secp-ph0",
+				"params": { "wide": false },
+				"formats": [
+					{ "outerMargin": 0.0, "innerMargin": 30.0, "ncols": 3.0 },
+					false
+				],
+				"default": true,
+				"noimg": true
+			},
+			"ph-0-1": {
+				"sec": "secp-ph0-img",
+				"params": { "wide": false },
+				"formats": [
+					{ "vcenter": true, "outerMargin": 30.0, "innerMargin": 30.0, "ncols": 3.0 },
+					false
+				],
+				"withimg": true
+			}
+		}
+	},
+	"banners_xs": {
+		"b0": "b0_ea",
+		"b1": "b1_ea",
+		"b2": "b2_ea",
+		"b3": "b2_ea",
+		"b0_e": "b0_ea",
+		"b1_e": "b1_ea",
+		"b2_e": "b2_ea",
+		"b3_e": "b2_ea",
+		"b0_a": "b0_ea",
+		"b1_a": "b1_ea",
+		"b2_a": "b2_ea",
+		"b3_a": "b2_ea",
+		"b0_ea": {
+			"name": "Nom du club, sans logo",
+			"id": "b0_ea",
+			"sections": {
+				"h-0": [ "h-0-xs" ],
+				"h-1": [ "h-1-xs" ]
+			},
+			"content": [
+				{ "kind": "wsg", "left": "15px", "width": "200px", "height": "40px", "target": "h-0", "rpd": "rpdp-h0", "html": "bxs_name" },
+				{ "kind": "wsg", "left": "auto", "right": "3px", "target": "h-0", "rpd": "rpdp-h0", "html": "bxs_contact" },
+				{ "kind": "menuh", "height": "48px", "left": "3px", "target": "h-1", "rpd": "rpdp-nav0" },
+				{ "kind": "wsg", "left": "auto", "right": "3px", "target": "h-1", "rpd": "rpdp-nav0", "html": "bxs_action" }
+			]
+		},
+		"b1_ea": {
+			"name": "Logo avec nom du club",
+			"id": "b1_ea",
+			"sections": {
+				"h-0": [ "h-0-xs" ],
+				"h-1": [ "h-1-xs" ]
+			},
+			"content": [
+				{ "kind": "wsg", "left": "80px", "width": "140px", "height": "40px", "target": "h-0", "rpd": "rpdp-h0", "html": "bxs_name" },
+				{ "kind": "wsg", "left": "auto", "right": "3px", "target": "h-0", "rpd": "rpdp-h0", "html": "bxs_contact" },
+				{ "kind": "menuh", "height": "48px", "left": "3px", "target": "h-1", "rpd": "rpdp-nav0" },
+				{ "kind": "wsg", "left": "auto", "right": "3px", "target": "h-1", "rpd": "rpdp-nav0", "html": "bxs_action" },
+				{ "kind": "pimg", "left": "15px", "size": true, "width": "60px", "height": "38px", "target": "h-0", "url": "/services/skeletons/dev/logos/psg-92x92.png", "rpd": "rpdp-h0", "zindex": "50" }
+			]
+		},
+		"b2_ea": {
+			"name": "Logo, sans nom du club",
+			"id": "b2_ea",
+			"sections": {
+				"h-0": [ "h-0-xs" ],
+				"h-1": [ "h-1-xs" ]
+			},
+			"content": [
+				{ "kind": "wsg", "left": "auto", "right": "3px", "target": "h-0", "rpd": "rpdp-h0", "html": "bxs_contact" },
+				{ "kind": "menuh", "height": "48px", "left": "3px", "target": "h-1", "rpd": "rpdp-nav0" },
+				{ "kind": "wsg", "left": "auto", "right": "3px", "target": "h-1", "rpd": "rpdp-nav0", "html": "bxs_action" },
+				{ "kind": "pimg", "left": "15px", "size": "left center", "width": "200px", "height": "38px", "target": "h-0", "url": "/services/skeletons/dev/logos/monaco-301x83.png", "rpd": "rpdp-h0", "zindex": "50" }
+			]
+		},
+		"b3_ea": "b2_ea"
+	},
+	"banners_sm": {
+		"b0": "b0_ea",
+		"b1": "b1_ea",
+		"b2": "b2_ea",
+		"b3": "b3_ea",
+		"b0_e": "b0_ea",
+		"b1_e": "b1_ea",
+		"b2_e": "b2_ea",
+		"b3_e": "b3_ea",
+		"b0_a": "b0_ea",
+		"b1_a": "b1_ea",
+		"b2_a": "b2_ea",
+		"b3_a": "b3_ea",
+		"b0_ea": {
+			"name": "Nom du club, sans logo",
+			"id": "b0_ea",
+			"sections": {
+				"h-0": [ "h-0-0" ],
+				"h-1": [ "h-1-0" ]
+			},
+			"content": [
+				{ "kind": "wsg", "left": "20px", "width": "300px", "height": "100px", "target": "h-0", "rpd": "rpdp-h0", "html": "bxs_name" },
+				{ "kind": "wsg", "top": "auto", "bottom": "20px", "left": "auto", "right": "20px", "target": "h-0", "rpd": "rpdp-h0", "html": "b0_social_e" },
+				{ "kind": "menuh", "left": "10px", "height": "50px", "target": "h-1", "rpd": "rpdp-nav0" },
+				{ "kind": "wsg", "top": "20px", "left": "auto", "right": "20px", "target": "h-0", "rpd": "rpdp-h0", "html": "b0_search" }
+			]
+		},
+		"b1_ea": {
+			"name": "Logo avec nom du club",
+			"id": "b1_ea",
+			"sections": {
+				"h-0": [ "h-0-0" ],
+				"h-1": [ "h-1-0" ]
+			},
+			"content": [
+				{ "kind": "pimg", "left": "20px", "size": true, "width": "80px", "target": "h-0", "url": "/services/skeletons/dev/logos/monaco-74x155.png", "rpd": "rpdp-h0", "zindex": "50" },
+				{ "kind": "wsg", "left": "112px", "width": "220px", "height": "100px", "target": "h-0", "rpd": "rpdp-h0", "html": "bxs_name" },
+				{ "kind": "wsg", "top": "auto", "bottom": "20px", "left": "auto", "right": "20px", "target": "h-0", "rpd": "rpdp-h0", "html": "b0_social_e" },
+				{ "kind": "menuh", "left": "10px", "height": "50px", "target": "h-1", "rpd": "rpdp-nav0" },
+				{ "kind": "wsg", "top": "20px", "left": "auto", "right": "20px", "target": "h-0", "rpd": "rpdp-h0", "html": "b0_search" }
+			]
+		},
+		"b2_ea": {
+			"name": "Logo, sans nom du club",
+			"id": "b2_ea",
+			"sections": {
+				"h-0": [ "h-0-0" ],
+				"h-1": [ "h-1-0" ]
+			},
+			"content": [
+				{ "kind": "pimg", "left": "20px", "size": "left center", "width": "110px", "height": "80px", "target": "h-0", "url": "/services/skeletons/dev/logos/monaco-74x155.png", "rpd": "rpdp-h0", "zindex": "50" },
+				{ "kind": "wsg", "top": "auto", "bottom": "20px", "left": "auto", "right": "20px", "target": "h-0", "rpd": "rpdp-h0", "html": "b0_social_e" },
+				{ "kind": "menuh", "left": "10px", "height": "50px", "target": "h-1", "rpd": "rpdp-nav0" },
+				{ "kind": "wsg", "top": "20px", "left": "auto", "right": "20px", "target": "h-0", "rpd": "rpdp-h0", "html": "b0_search" }
+			]
+		},
+		"b3_ea": {
+			"name": "Logo horizontal",
+			"id": "b3_ea",
+			"sections": {
+				"h-0": [ "h-0-0" ],
+				"h-1": [ "h-1-0" ]
+			},
+			"content": [
+				{ "kind": "pimg", "left": "20px", "size": "left center", "width": "300px", "height": "80px", "target": "h-0", "url": "/services/skeletons/dev/logos/monaco-301x83.png", "rpd": "rpdp-h0", "zindex": "50" },
+				{ "kind": "wsg", "top": "auto", "bottom": "20px", "left": "auto", "right": "20px", "target": "h-0", "rpd": "rpdp-h0", "html": "b0_social_e" },
+				{ "kind": "menuh", "left": "10px", "height": "50px", "target": "h-1", "rpd": "rpdp-nav0" },
+				{ "kind": "wsg", "top": "20px", "left": "auto", "right": "20px", "target": "h-0", "rpd": "rpdp-h0", "html": "b0_search" }
+			]
+		}
+	}
+} ;

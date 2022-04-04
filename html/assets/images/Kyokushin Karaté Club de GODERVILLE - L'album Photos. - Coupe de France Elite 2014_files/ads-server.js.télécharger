@@ -1,0 +1,574 @@
+var autotypedef = {"Motocyclisme":{"imgurl":"moto.jpg"},"Wakeboard":{},"CaniVTT":{},"Rugby":{"referer":"rugby","imgurl":"rugby.jpg"},"Viet Vo Dao":{},"Chiens de Traîneaux":{},"Football Américain":{"referer":"football_americain","imgurl":"foot-us.jpg"},"Karting":{},"Skwal":{},"Marche":{"referer":"marche","imgurl":"randonnee.jpg"},"Snow Bike":{},"Handball":{"referer":"handball","imgurl":"handball.jpg"},"Kayak":{"referer":"kayak","imgurl":"canoe-kayak.jpg"},"Kempo":{},"Moto Cross":{"imgurl":"moto.jpg"},"Kite Jumping":{},"Skateboard":{},"Formule 1":{},"Plongée":{"referer":"ffessm","imgurl":"plongee.jpg"},"Hockey sur Gazon":{},"Gymnastique et Discipl. Associées":{},"Natation":{"referer":"natation","imgurl":"natation.jpg"},"Haltérophilie":{"referer":"halterophilie","imgurl":"haltero.jpg"},"Balle Au Tambourin":{},"Danse Sportive":{},"Musculation":{},"Alpinisme":{"imgurl":"montagne.jpg"},"Parachustime - Ascensionnel":{},"Gp Champ Car":{},"Infos Sports":{},"Taï Chi Chuan":{},"VTT":{"referer":"vtt","imgurl":"cyclisme.jpg"},"Echec":{"imgurl":"echecs.jpg"},"Golf":{"referer":"golf","imgurl":"golf.jpg"},"Padel":{},"Longue Paume":{},"unknownsport":{"imgurl":"allsport.jpg"},"Aïkido":{"referer":"aikido","imgurl":"aikido.jpg"},"Roller In Line Hockey":{},"Randonnée Pédestre":{"referer":"randonnee","imgurl":"randonnee.jpg"},"Omnisport":{},"Course d'orientation":{},"Automobile":{"imgurl":"sport-auto.jpg"},"Water Polo":{},"Spéléologie":{"referer":"speleo","imgurl":"speleo.jpg"},"Bicross":{},"Deltaplane":{},"Hockey sur Glace":{"referer":"ffsg","imgurl":"hockey-sur-glace.jpg"},"Pelote Basque":{},"Kendo":{},"Bridge":{},"Char à Voile":{},"Sports de Glace":{"referer":"ffsg","imgurl":"patinage-artistique.jpg"},"Boxe Américaine":{},"Beach Volley":{},"Cross Country":{"imgurl":"running.jpg"},"Ballon Au Poing":{},"Snow Funboard":{},"Cross Canins":{},"Baseball":{},"Boxe Française":{"referer":"ffsavate","imgurl":"savate.jpg"},"Ski-pulka":{},"Divers":{},"Ski de descente":{"referer":"ski","imgurl":"ski.jpg"},"Motonautique":{},"Voile":{"referer":"voile","imgurl":"voile.jpg"},"Modélisme":{},"Vol à Voile":{},"Course à Pied":{"imgurl":"running.jpg"},"Kapap":{},"Gymnastique":{"referer":"gymnastique","imgurl":"gymnastique.jpg"},"Tennis de Table":{"referer":"tennisdetable","imgurl":"tennis-de-table.jpg"},"Snowboard - Ski":{},"Vol Libre":{},"Ski":{"referer":"ski","imgurl":"ski.jpg"},"Cerfs-volants":{},"Tauromachie":{},"Tir à l'arc":{"referer":"arc","imgurl":"arc.jpg"},"Handisport Sourd":{},"Badminton":{"referer":"badminton","imgurl":"badminton.jpg"},"Cricket":{},"Kick Boxing":{"referer":"cfkb","imgurl":"kick.jpg"},"Frisbee":{},"Ski Nordique":{"referer":"ski","imgurl":"ski.jpg"},"Escalade":{},"Bobsleigh":{"referer":"ffsg"},"Surf":{},"Tennis-ballon":{},"Curling":{},"Moto Ball":{"imgurl":"moto.jpg"},"Footy":{},"Cyclotourisme":{"referer":"cyclotourisme","imgurl":"cyclotourisme.jpg"},"Kite Surf":{},"Escrime Handisport":{},"Football féminin":{},"Full Contact":{"referer":"fffcda","imgurl":"kick.jpg"},"Roller Skating":{},"Sports Sous-marins":{"referer":"ffessm","imgurl":"plongee.jpg"},"Quad":{},"Danse":{},"Taekwondo":{"imgurl":"taekwondo.jpg"},"Biathlon":{},"Capoeira":{},"Montgolfière":{},"Karaté":{"referer":"karate","imgurl":"karate.jpg"},"Billard":{"referer":"billard","imgurl":"billard.jpg"},"Sport Automobile":{"imgurl":"sport-auto.jpg"},"Lutte":{},"Futsal":{"referer":"futsal","imgurl":"foot.jpg"},"Judo - Ju-jitsu":{"referer":"judo-ju-jitsu","imgurl":"judo.jpg"},"Parapente":{},"Pêcheur en Mer":{},"Rink-hockey":{},"Volleyball":{"referer":"volley","imgurl":"volley.jpg"},"Sandball":{},"Athlétisme":{"referer":"athletisme","imgurl":"athletisme.jpg"},"Pétanque et Jeu Provençal":{"referer":"pejp","imgurl":"petanque.jpg"},"Ski Nautique":{"referer":"ski","imgurl":"ski.jpg"},"Twirling Bâton":{},"Parachutisme":{},"Beach Rugby":{},"Aérostation":{},"ULM":{},"Saut à Skis":{},"Pentathlon Moderne":{},"Snowboard":{},"Peche":{},"Roller":{},"Equitation":{"referer":"equitation","imgurl":"equitation.jpg"},"Moto-gp":{},"BasketBall":{"referer":"ffbb","imgurl":"basket.jpg"},"Squash":{},"Boule Nantaise":{},"Triathlon":{"referer":"fftri","imgurl":"triathlon.jpg"},"Bmx":{},"Boxe":{},"Rugby à XIII":{},"Aviron":{},"Pêche à la Mouche et au Lancer":{},"Aéronautique":{},"Cyclocross":{},"Cyclisme":{"referer":"cyclisme","imgurl":"cyclisme.jpg"},"Pêche Sportive au Coup":{},"Patinage Artistique":{"referer":"ffsg","imgurl":"patinage-artistique.jpg"},"Handisport":{},"Freestyle":{},"Ski de Vitesse":{"referer":"ski","imgurl":"ski.jpg"},"Marathon":{"imgurl":"running.jpg"},"Sambo":{},"Bowling":{"imgurl":"bowling.jpg"},"Sport Boules":{"referer":"sportboule","imgurl":"boules-lyonnaises.jpg"},"Rallye Auto":{"imgurl":"sport-auto.jpg"},"Moto":{"imgurl":"moto.jpg"},"Canicross":{},"Chi Gong":{},"Duathlon":{},"Horseball":{"referer":"horseball","imgurl":"equitation.jpg"},"Cyclo Loisir":{},"Pétanque":{"referer":"petanque","imgurl":"petanque.jpg"},"Beach Soccer":{},"Aéro-club":{},"Boxe Anglaise":{},"Canoe-kayak":{"referer":"canoekayak","imgurl":"canoe-kayak.jpg"},"Ball-trap":{},"Sports de Traîneau":{},"Natation Synchronisée":{"imgurl":"natation.jpg"},"Ski de Fond":{"referer":"ski","imgurl":"ski.jpg"},"Sport Adapté":{},"Montagne et Escalade":{"imgurl":"montagne.jpg"},"Formule 3000":{},"Escrime":{"referer":"escrime","imgurl":"escrime.jpg"},"Tennis Handisport":{},"Boules Lyonnaises":{"referer":"boulelyonnaise","imgurl":"boules-lyonnaises.jpg"},"Muay Thai":{},"Giraviation":{},"Planeur Ultra-léger Motorisé":{},"Funboard":{},"Rallye-aventure":{},"Taï-jitsu":{},"Tennis":{"referer":"tennis","imgurl":"tennis.jpg"},"Football":{"referer":"foot","imgurl":"foot.jpg"},"Ski Freestyle":{"referer":"ski","imgurl":"ski.jpg"},"Tir Sportif":{"referer":"tir","imgurl":"tir.jpg"},"Aéromodélisme":{},"Polo":{},"Raid Aventure":{},"Kayak Polo":{"referer":"kayakpolo","imgurl":"canoe-kayak.jpg"},"Ski Biathlon":{"referer":"ski","imgurl":"ski.jpg"},"Bodyboard":{},"Judo":{"referer":"judo","imgurl":"judo.jpg"},"Savate Boxe Française":{"referer":"ffsavate","imgurl":"savate.jpg"}} ;
+
+function ads_getcookiesads(){
+	var host = ( q_spaceparam( "infos" ) ) ? q_spaceparam( "infos" ).host : null ;
+//	if ( host == "www.otcf.fr" ) return [ "accropizz/ad0" ] ;
+//	if ( host == "www.eso-tennis-de-table.fr" ) return [ "accropizz/ad0" ] ;
+//	if ( host == "www.rsstcyrbasket.fr" ) return [ "accropizz/ad0" ] ;
+//	if ( host == "www.pionniersdetouraine.fr" ) return [ "accropizz/ad0" ] ;
+//	if ( host == "www.pllltoursbasket.com" ) return [ "accropizz/ad0" ] ;
+	var privatedomain = ( q_spaceparam( "infos" ) ) ? q_spaceparam( "infos" ).privatedomain : null ;
+//	if ( privatedomain == "otcf" ) return [ "accropizz/ad0" ] ;
+//	if ( privatedomain == "bctn" ) return [ "accropizz/ad0" ] ;
+//	if ( privatedomain == "summercampbasketball" ) return [ "accropizz/ad0" ] ;
+//	if ( privatedomain == "avenir-fc-tours" ) return [ "accropizz/ad0" ] ;
+//	if ( privatedomain == "bbc-tours-tennisdetable" ) return [ "accropizz/ad0" ] ;
+	return null ;
+}
+function q_acceptCookies( b ) {
+	if ( b == "later" ) {
+		q_acceptCookiesLoaded = false ;
+		$( "#accept-cookies" ).remove() ;
+		$( "body" ).css( "margin-top", "auto" ).removeAttr( "cookie-margin-top" ) ;
+		window.quomodo && quomodo.events.trigger( "topads.loaded" ) ;
+		return ;
+	}
+	setcookie( "accept-cookies", b ? "1" : "0", 365, true ) ;
+	q_acceptCookiesLoaded = false ;
+	$( "#accept-cookies" ).remove() ;
+	$( "body" ).css( "margin-top", "auto" ).removeAttr( "cookie-margin-top" ) ;
+	window.quomodo && quomodo.events.trigger( "topads.loaded" ) ;
+}
+function q_cookiesMoreInfos( hide ) {
+	if ( hide ) {
+		$( "#accept-cookies-step2" ).hide() ;
+		$( "#accept-cookies-step1" ).show() ;
+		return ;
+	}
+	var h = $( window ).height() - parseInt( $( "#accept-cookies" ).css( "padding-top" ), 10 ) - parseInt( $( "#accept-cookies" ).css( "padding-bottom" ), 10 ) ;
+	if ( $( "#accept-cookies-step2" ).data( "prepared" ) ) {
+		$( "#accept-cookies-step2" ).show() ;
+		$( "#accept-cookies-step2 .content" ).height( h ) ;
+		$( "#accept-cookies-step1" ).hide() ;
+		return ;
+	}
+	q_fsm_wait() ;
+	q_include( { "target": "accept-cookies-step2", urls : [ "/clients/qlubads0910/accept_cookies_" + q_lang + ".html" ] }, function() {
+		q_fsm_delete() ;
+		$( "#accept-cookies-step2" ).show() ;
+		$( "#accept-cookies-step2 .content" ).height( h ) ;
+		$( "#accept-cookies-step1" ).hide() ;
+	} ) ;
+}
+
+var q_acceptCookiesLoaded ;
+function cookiesConfirm() {
+	if ( window != parent.window ) return ; // popup
+	if ( q_acceptCookiesLoaded ) return ;
+	q_acceptCookiesLoaded = true ;
+	quomodo.events.addListener( "finish_init.page" , function( eventDesc, eventName ){
+		if ( $( "#accept-cookies" ).length > 0 ) return ;
+		var dict = {
+			"fr": {
+				"prompt": "En poursuivant votre navigation sur ce site, vous acceptez l’utilisation de cookies ou autres traceurs pour adapter à vos centres d'intérêt les publicités qui financent ce site.",
+				"ok": "OK j'accepte",
+				"more": "En savoir plus",
+				"later": "Plus tard"
+			},
+			"en": {
+				"prompt": "By continuing your browsing on this site, you accept the use of cookies or other tracers to adapt to your interests the advertisements that finance this site.",
+				"ok": "OK I agree",
+				"more": "Learn more",
+				"later": "Later"
+			}
+		} ;
+		$( "body" ).append( '<div id="accept-cookies" style="position : fixed ; width: 100%; z-index: 5; font-size: 11px; color: #000; top: 0px; left: 0px; font-family: Lato, sans-serif; background-color: #f5f5f5; border-bottom: 1px solid #ddd; padding: 4px 18px ; box-sizing: border-box ; text-align: justify"><div id="accept-cookies-step1" style="text-align: center"><div>' + dict[ q_lang ][ "prompt" ] + '</div><span onclick="q_acceptCookies( \'later\' ) ; return false" style="float: right ; color: #1479FC ; cursor: pointer">' + dict[ q_lang ][ "later" ] + '</span><span onclick="q_cookiesMoreInfos() ; return false" style="float: right ; color: #1479FC ; cursor: pointer ; margin-right: 18px">' + dict[ q_lang ][ "more" ] + '</span><span onclick="q_acceptCookies( true ) ; return false" style="float: right ; color: #1479FC ; cursor: pointer ; margin-right: 18px ; font-weight: bold">' + dict[ q_lang ][ "ok" ] + '</span></div><div id="accept-cookies-step2" style="font-size: 14px ; display: none"></div></div>' ).css( "margin-top", "35px" ).attr( "cookie-margin-top", "35" ) ;
+		window.quomodo && quomodo.events.trigger( "topads.loaded" ) ;
+	} ) ;
+}
+
+var selected_ads = {} ;
+function ads_getad( site ) {
+	if ( selected_ads[ site ] ) return selected_ads[ site ] ;
+	var dims = { "top" : { width : "728", height : "90" }, "top_xs" : { width : "320", height : "50" }, "right" : { width : "120", height : "600" }, "bottom" : { width : "468", height : "60" }, "bottom_xs" : { width : "320", height : "50" } } ;
+	function inArray( item, list ){
+		if ( list.indexOf ) return list.indexOf( item ) ;
+		for ( var i = 0 ; i < list.length ; i++ ){
+			if ( item == list[ i ] ) return i ;
+		}
+		return -1 ;
+	}
+	var accept_cookies = getcookie( "accept-cookies" ) ;
+	var cookies_enabled = ( window.cookiesEnabled || function() {
+		setcookie( "test-cookies-enabled", "1", 1, true ) ;
+		var res = getcookie( "test-cookies-enabled" ) == "1" ;
+		deletecookie( "test-cookies-enabled", true ) ;
+		return res ;
+	} )() ;
+	var ads_def = {
+		"pub" : function( site, params ){
+			return "pub" ; // 2021-08-31 : on règle les annonces de Google en mode non personnalisé donc pas de consentement
+			if ( accept_cookies == "0" ) return null ;
+			if ( ! cookies_enabled ) return "pub" ;
+			if ( accept_cookies != "1" ) {
+				cookiesConfirm() ;
+				return null ;
+			}
+			return "pub" ;
+		},
+		"edit" : function( site, params ){
+			var ad = q_cloneObject( dims[ site ] ) ;
+			ad.type = "editad" ;
+			ad.site = site ;
+			return { slots : [ ad ] } ;
+		},
+		"ods" : function( site, params ){
+			if ( params.use != "sport" ) return null ;
+			var ad = q_cloneObject( dims[ site ] ) ;
+			ad.type = "iframe" ;
+			if ( ( /foot/ ).test( params.type.toLowerCase() ) ) ad.src = params.base + "/ods/" + site + "_foot-view.html" ;
+			else if ( ( /basket/ ).test( params.type.toLowerCase() ) ) ad.src = params.base + "/ods/" + site + "_basket-view.html" ;
+			else ad.src = params.base + "/ods/" + site + "_general-view.html" ;
+			return { slots : [ ad ] } ;
+		},
+		"auto" : function( site, params ){
+			if ( params.use != "sport" ) return null ;
+			if ( site != "top" ) return ads_def [ "ods" ] ( site, params ) ;
+			var imgurl = autotypedef [ params.type ] && autotypedef [ params.type ].imgurl ;
+			var referer = autotypedef [ params.type ] && autotypedef [ params.type ].referer ;			
+			var ad = q_cloneObject( dims[ site ] ) ;
+			ad.type = "iframe" ;
+			ad.src = params.base + "/auto-06-2014/" + site + "_auto-view.html" ;
+			var sep = "?" ;
+			if ( imgurl ) ad.src += "?i=" + imgurl ;
+			if ( imgurl ) sep = "&" ;
+			if ( referer ) ad.src += sep + "refererpage=" + referer ;
+			return { slots : [ ad ] } ;
+		},
+		"auto-pros-ads-07-2016-1" : function( site, params ){
+			if ( site == "bottom" ) return this[ "pub" ]( site, params ) ;
+			var ad = q_cloneObject( dims[ site ] ) ;
+			ad.type = "iframe"
+			ad.src = params.base + "/auto-pros-ads-07-2016-1/" + site + "-view.html" ;
+			return { slots : [ ad ] } ;
+		},
+		"auto-pros-ads-07-2016-2" : function( site, params ){
+			if ( site == "bottom" ) return this[ "pub" ]( site, params ) ;
+			var ad = q_cloneObject( dims[ site ] ) ;
+			ad.type = "iframe"
+			ad.src = params.base + "/auto-pros-ads-07-2016-2/" + site + "-view.html" ;
+			return { slots : [ ad ] } ;
+		},
+		"auto-pros-ads-07-2016-3" : function( site, params ){
+			if ( site == "bottom" ) return this[ "pub" ]( site, params ) ;
+			var ad = q_cloneObject( dims[ site ] ) ;
+			ad.type = "iframe"
+			ad.src = params.base + "/auto-pros-ads-07-2016-3/" + site + "-view.html" ;
+			return { slots : [ ad ] } ;
+		},
+		"auto-pros-ads-07-2016-4" : function( site, params ){
+			if ( site == "bottom" ) return this[ "pub" ]( site, params ) ;
+			var ad = q_cloneObject( dims[ site ] ) ;
+			ad.type = "iframe"
+			ad.src = params.base + "/auto-pros-ads-07-2016-4/" + site + "-view.html" ;
+			return { slots : [ ad ] } ;
+		},
+		"agence-09-2016-1" : function( site, params ){
+			if ( site == "bottom" ) return this[ "pub" ]( site, params ) ;
+			var ad = q_cloneObject( dims[ site ] ) ;
+			ad.type = "iframe"
+			ad.src = params.base + "/agence-09-2016-1/" + site + "-view.html" ;
+			return { slots : [ ad ] } ;
+		},
+		"agence-09-2016-2" : function( site, params ){
+			if ( site == "bottom" ) return this[ "pub" ]( site, params ) ;
+			var ad = q_cloneObject( dims[ site ] ) ;
+			ad.type = "iframe"
+			ad.src = params.base + "/agence-09-2016-2/" + site + "-view.html" ;
+			return { slots : [ ad ] } ;
+		},
+		"agence-2019-04" : function( site, params ){
+			if ( site == "bottom" ) return this[ "pub" ]( site, params ) ;
+			var ad = q_cloneObject( dims[ site ] ) ;
+			ad.type = "iframe"
+			ad.src = params.base + "/agence-2019-04/" + site + "-view.html" ;
+			return { slots : [ ad ] } ;
+		},
+		"agence-2019-05-shop" : function( site, params ){
+			if ( site == "bottom" ) return this[ "pub" ]( site, params ) ;
+			var ad = q_cloneObject( dims[ site ] ) ;
+			ad.type = "iframe"
+			ad.src = params.base + "/agence-2019-05-shop/" + site + "-view.html" ;
+			return { slots : [ ad ] } ;
+		},
+		"agence-2019-05-vitrine" : function( site, params ){
+			if ( site == "bottom" ) return this[ "pub" ]( site, params ) ;
+			var ad = q_cloneObject( dims[ site ] ) ;
+			ad.type = "iframe"
+			ad.src = params.base + "/agence-2019-05-vitrine/" + site + "-view.html" ;
+			return { slots : [ ad ] } ;
+		},
+		"agence-2020-01-cle" : function( site, params ){
+			if ( site == "bottom" ) return this[ "pub" ]( site, params ) ;
+			var ad = q_cloneObject( dims[ site ] ) ;
+			ad.type = "iframe"
+			ad.src = params.base + "/agence-2020-01-cle/" + site + "-view.html" ;
+			return { slots : [ ad ] } ;
+		},
+		"diy-pros-09-2016" : function( site, params, device ){
+			if ( device == "xs" ) {
+				return null ;
+/*
+				if ( params.id != "55F85F19-7BCA-4CEC-A215-3405A2679A2E" ) return null ;
+				if ( site == "right" ) return null ;
+				var ad = q_cloneObject( dims[ site + "_xs" ] ) ;
+				ad.type = "autoad" ;
+				return { slots : [ ad ] } ;
+*/
+			}
+			if ( site == "bottom" ) {
+				//if ( params.id == "55F85F19-7BCA-4CEC-A215-3405A2679A2E" ) return null ;
+				return this[ "pub" ]( site, params ) ;
+			}
+			var ad = q_cloneObject( dims[ site ] ) ;
+			ad.type = "iframe"
+			ad.src = params.base + "/diy-pros-09-2016/" + site + "-view.html" ;
+			return { slots : [ ad ] } ;
+		},
+		"evode-boutique-2021-08" : function( site, params ){
+			//if ( site == "bottom" ) return this[ "pub" ]( site, params ) ;
+			if ( site == "bottom" ) return null ;
+			var ad = q_cloneObject( dims[ site ] ) ;
+			ad.type = "iframe"
+			ad.src = params.base + "/evode-boutique-2021-08/" + site + "-view.html" ;
+			return { slots : [ ad ] } ;
+		},
+		"evode-metier-artisan-2021-08" : function( site, params ){
+			//if ( site == "bottom" ) return this[ "pub" ]( site, params ) ;
+			if ( site == "bottom" ) return null ;
+			var ad = q_cloneObject( dims[ site ] ) ;
+			ad.type = "iframe"
+			ad.src = params.base + "/evode-metier-artisan-2021-08/" + site + "-view.html" ;
+			return { slots : [ ad ] } ;
+		},
+		"evode-metier-coach-2021-08" : function( site, params ){
+			//if ( site == "bottom" ) return this[ "pub" ]( site, params ) ;
+			if ( site == "bottom" ) return null ;
+			var ad = q_cloneObject( dims[ site ] ) ;
+			ad.type = "iframe"
+			ad.src = params.base + "/evode-metier-coach-2021-08/" + site + "-view.html" ;
+			return { slots : [ ad ] } ;
+		},
+		"evode-metier-commercant-2021-08" : function( site, params ){
+			//if ( site == "bottom" ) return this[ "pub" ]( site, params ) ;
+			if ( site == "bottom" ) return null ;
+			var ad = q_cloneObject( dims[ site ] ) ;
+			ad.type = "iframe"
+			ad.src = params.base + "/evode-metier-commercant-2021-08/" + site + "-view.html" ;
+			return { slots : [ ad ] } ;
+		},
+		"evode-metier-createur-2021-08" : function( site, params ){
+			//if ( site == "bottom" ) return this[ "pub" ]( site, params ) ;
+			if ( site == "bottom" ) return null ;
+			var ad = q_cloneObject( dims[ site ] ) ;
+			ad.type = "iframe"
+			ad.src = params.base + "/evode-metier-createur-2021-08/" + site + "-view.html" ;
+			return { slots : [ ad ] } ;
+		},
+		"evode-metier-freelance-2021-08" : function( site, params ){
+			//if ( site == "bottom" ) return this[ "pub" ]( site, params ) ;
+			if ( site == "bottom" ) return null ;
+			var ad = q_cloneObject( dims[ site ] ) ;
+			ad.type = "iframe"
+			ad.src = params.base + "/evode-metier-freelance-2021-08/" + site + "-view.html" ;
+			return { slots : [ ad ] } ;
+		},
+		"evode-vitrine-2021-08" : function( site, params ){
+			//if ( site == "bottom" ) return this[ "pub" ]( site, params ) ;
+			if ( site == "bottom" ) return null ;
+			var ad = q_cloneObject( dims[ site ] ) ;
+			ad.type = "iframe"
+			ad.src = params.base + "/evode-vitrine-2021-08/" + site + "-view.html" ;
+			return { slots : [ ad ] } ;
+		},
+		"fb" : function( site, params ){
+			if ( params.use != "sport" ) return null ;
+			var ad = q_cloneObject( dims[ site ] ) ;
+			ad.type = "iframe" ;
+			ad.src = params.base + "/jeux-facebook-2012-11/" + site + "-view.html" ;
+			return { slots : [ ad ] } ;
+		},
+		"euro-sportring" : function( site, params ){
+			if ( ! ( /^football/i ).test( params.type ) || inArray( params.dep , [ "75", "91", "92", "93", "77", "94", "95", "78", "67", "68", "54", "55", "57", "88", "59", "62", "02", "60", "80" ] ) == -1 ) return null ;
+			var ad = q_cloneObject( dims[ site ] ) ;
+			ad.type = "iframe" ;
+			ad.src = params.base + "/euro-sportring-2012-11/" + site + "_foot-view.html" ;
+			return { slots : [ ad ] } ;
+		},
+		"mondialping" : function( site, params ){
+			if ( inArray( params.dep , [ "75", "91", "92", "93", "77", "94", "95", "78" ] ) == -1 ) return null ;
+			var ad = q_cloneObject( dims[ site ] ) ;
+			ad.type = "iframe" ;
+			ad.src = params.base + "/mondialping-2013/" + site + "-view.html" ;
+			return { slots : [ ad ] } ;
+		},
+		"ffbb-aig" : function( site, params ){
+			if ( ! ( /^basket/i ).test( params.type ) || site != "top" ) return this[ "ods" ]( site, params ) ;
+			var ad = q_cloneObject( dims[ site ] ) ;
+			ad.type = "iframe"
+			ad.src = params.base + "/ffbb-aig-2014-06/" + site + "-view.html" ;
+			return { slots : [ ad ] } ;
+		},
+		"ffbb-cdf2016" : function( site, params ){
+			if ( ! ( /^basket/i ).test( params.type ) || inArray( params.dep , [ "75", "91", "92", "93", "77", "94", "95", "78" ] ) == -1 || site != "top" ) return this[ "ods" ]( site, params ) ;
+			var ad = q_cloneObject( dims[ site ] ) ;
+			ad.type = "iframe"
+			ad.src = params.base + "/coupe-de-france-2016-02/" + site + "-view.html" ;
+			return { slots : [ ad ] } ;
+		},
+		"ffbb-cnosf-2018" : function( site, params ){
+			if ( ! ( /^basket/i ).test( params.type ) || site != "top" ) return this[ "auto" ]( site, params ) ;
+			var ad = q_cloneObject( dims[ site ] ) ;
+			ad.type = "iframe"
+			ad.src = params.base + "/ffbb-cnosf-2018-09/" + site + "-view.html" ;
+			return { slots : [ ad ] } ;
+		},
+		"ffbb-cdf2019" : function( site, params ){
+			if ( ! ( /^basket/i ).test( params.type ) || site != "top" ) return this[ "auto" ]( site, params ) ;
+			var ad = q_cloneObject( dims[ site ] ) ;
+			ad.type = "iframe"
+			ad.src = params.base + "/ffbb-coupe-france-2019/" + site + "-view.html" ;
+			return { slots : [ ad ] } ;
+		}
+	}
+	function imgsrc( site ){
+		var base = ( qlub_ads_slotHTML( { type : "imgwithhttp" } ) == true ) ? ( window.location.protocol + "//core0.quomodo.com" ) : "" ;
+		var type = q_spaceparam( "infos" ).type ;
+		if ( type && ( /basket/ ).test( type.toLowerCase() ) ) return base + "/images/ads/ods/" + site + "_basket.jpg" ;
+		if ( type && ( /foot/ ).test( type.toLowerCase() ) ) return base + "/images/ads/ods/" + site + "_foot.jpg" ;
+		return base + "/images/ads/ods/" + site + "_general.jpg" ;
+	}
+	function getad( site ){
+		if ( qlub_ads_slotHTML( { type : "version" } ) != 1 ) return [ "pub" , { slots : [ q_cloneObject( { type : "imglink" , img: imgsrc( site ) , link: "http://lofficieldusport.fr" , target: "_blank" } , dims[ site ] ) ] } ] ;
+		//var ads = ( window.quomodoclient && quomodoclient.ads && quomodoclient.ads.qIDS ) || [ "pub", "ods", "auto" /* "fb" , "mondialping", "euro-sportring", "euro-sportring", "euro-sportring"*/ ] ;
+		//var ads = ( window.quomodoclient && quomodoclient.ads && quomodoclient.ads.qIDS ) || [ "pub", "ffbb-aig", "auto" /* "fb" , "mondialping", "euro-sportring", "euro-sportring", "euro-sportring"*/ ] ;
+		//var ads = ( window.quomodoclient && quomodoclient.ads && quomodoclient.ads.qIDS ) || [ "pub", "ffbb-cdf2016", "ffbb-cdf2016" /* "fb" , "mondialping", "euro-sportring", "euro-sportring", "euro-sportring"*/ ] ;
+// 07.04.2016 on passe en 100% Google
+		//var ads = ( window.quomodoclient && quomodoclient.ads && quomodoclient.ads.qIDS ) || [ "pub" ] ;
+// 18.07.2016 on passe en 67% Google 33% auto promo Quomodo Pros, 4 campagnes simultanées
+		//var ads = ( window.quomodoclient && quomodoclient.ads && quomodoclient.ads.qIDS ) || [ "pub", "pub", "pub", "pub", "pub", "pub", "pub", "pub", "auto-pros-ads-07-2016-1", "auto-pros-ads-07-2016-2", "auto-pros-ads-07-2016-3", "auto-pros-ads-07-2016-4" ] ;
+// 25.07.2016 on passe à nouveau en 100% Google
+		//var ads = ( window.quomodoclient && quomodoclient.ads && quomodoclient.ads.qIDS ) || [ "pub" ] ;
+// 20.09.2016 on active les pubs agence et do-it : 2/3 Google - 1/3 Quomodo et pour Quomodo on fait 1/2 agence (alternance des 2 pubs) et 1/2 do-it
+		//var ads = ( window.quomodoclient && quomodoclient.ads && quomodoclient.ads.qIDS ) || [ "pub", "pub", "pub", "pub", "pub", "pub", "pub", "pub", "agence-09-2016-1", "agence-09-2016-2", "diy-pros-09-2016", "diy-pros-09-2016" ] ;
+//22.09.2016 on ne conserve qu'une des 2 pubs agence qui marche mieux que l'autre, et on passe en 1/3 Google - 1/3 Quomodo doit - 1/3 Quomodo agence
+		//var ads = ( window.quomodoclient && quomodoclient.ads && quomodoclient.ads.qIDS ) || [ "pub", "agence-09-2016-2", "diy-pros-09-2016" ] ;
+//07.11.2016 fin de la promo agence, on passe en 2/3 Google - 1/3 Quomodo doit
+		//var ads = ( window.quomodoclient && quomodoclient.ads && quomodoclient.ads.qIDS ) || [ "pub", "pub", "diy-pros-09-2016" ] ; // 2019-05-06 : on met les pubs pour l'agence
+		//var ads = ( window.quomodoclient && quomodoclient.ads && quomodoclient.ads.qIDS ) || [ "pub", "pub", "pub", "pub", "agence-2019-05-shop", "agence-2019-05-vitrine" ] ; // 2020-01-29 : on ajoute la publicité site cle en main
+		//var ads = ( window.quomodoclient && quomodoclient.ads && quomodoclient.ads.qIDS ) || [ "pub", "pub", "pub", "agence-2020-01-cle", "agence-2019-05-shop", "agence-2019-05-vitrine" ] ; // 2021-08-24 : on met les publicités EVODE
+		//var ads = ( window.quomodoclient && quomodoclient.ads && quomodoclient.ads.qIDS ) || [ "evode-boutique-2021-08", "evode-metier-artisan-2021-08", "evode-metier-coach-2021-08", "evode-metier-commercant-2021-08", "evode-metier-createur-2021-08", "evode-metier-freelance-2021-08", "evode-vitrine-2021-08" ] ; // 2021-08-24 : finalement on ne met que les publicités EVODE
+		var ads = ( window.quomodoclient && quomodoclient.ads && quomodoclient.ads.qIDS ) || [ "pub", "pub", "pub", "pub", "pub", "pub", "pub", "evode-boutique-2021-08", "evode-metier-artisan-2021-08", "evode-metier-coach-2021-08", "evode-metier-commercant-2021-08", "evode-metier-createur-2021-08", "evode-metier-freelance-2021-08", "evode-vitrine-2021-08" ] ; // 2021-08-31 : finalement, nouveau test, on remet les pubs en mode non personnalisé
+		var params = {
+			"base": window.location.protocol + "//ads" + ( ( isrealserver() ) ? "" : "1" ) + ".quomodo.com",
+			"id": q_spaceparam( "id" ),
+			"use": ( q_spaceparam( "infos" ) ) ? q_spaceparam( "infos" ).subscribe_use : "other",
+			"type": ( q_spaceparam( "infos" ) ) ? q_spaceparam( "infos" ).type : "other",
+			"dep": ( q_spaceparam( "infos" ) ) ? q_spaceparam( "infos" ).department : "",
+			"zip": ( q_spaceparam( "infos" ) ) ? q_spaceparam( "infos" ).zipcode : ""
+		} ;
+		if ( window.qsn_responsive_mod && qsn_responsive_mod() == "xs" ) ads = [ "pub" ] ;
+		try {
+			if ( q_pagemode() == "edit" ) ads = [ "edit" ] ;
+		} catch( err ) {}
+		//if ( params.id == "55F85F19-7BCA-4CEC-A215-3405A2679A2E" ) ads = [ "diy-pros-09-2016" ] ;
+		/*
+		if ( ( /^basket/i ).test( params.type ) ) {
+			ads = [ "ffbb-cnosf-2018" ] ;
+			if ( window.qsn_responsive_mod && qsn_responsive_mod() == "xs" ) ads = [ "auto" ] ;
+		}
+		*/
+/*
+// 2019-04-02, nb affichages atteint, on arrête la campagne
+		if ( ( /^basket/i ).test( params.type ) ) {
+			//ads = [ "ffbb-cdf2019", "ffbb-cdf2019", "pub" ] ;
+			// 2019-02-19, on passe à 100%
+			ads = [ "ffbb-cdf2019" ] ;
+			if ( window.qsn_responsive_mod && qsn_responsive_mod() == "xs" ) ads = [ "auto" ] ;
+		}
+*/
+		if ( ( /^[0-9]{5}$/ ).test( params.zip ) ) params.dep = params.zip.substring( 0, ( ( /^9[7-9]/ ).test( params.zip ) ) ? 3 : 2 ) ;
+		var displayedads = [] ;
+		for ( var i = 0 ; i < ads.length ; i++ ) {
+			var ad = ads_def[ ads[ i ] ] && ads_def[ ads[ i ] ]( site, params, window.qsn_responsive_mod && qsn_responsive_mod() ) ;
+			if ( ad ) displayedads.push( ad ) ;
+		}
+		return displayedads ;
+	}
+	selected_ads[ site ] = getad( site ) ;
+	return selected_ads[ site ] ;
+}
+
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+
+function qlub_init_pubtopads( siteads ) {
+	if ( window.qlub_ads_cmd ) {
+		$( "#qlub_topads-gpt" ).remove() ;
+		var $target = qlub_addTarget( "qlub_topads" ) ;
+		$target.append( '<div id="qlub_topads-gpt" style="width:728px; height:90px;"></div>' ) ;
+		try {
+			googletag.cmd.push(function() {
+				googletag.display( "qlub_topads-gpt" ) ;
+			} );
+		} catch( err ) {}
+		return true ;
+	}
+	document.write( '<div id="qlub_topads-gpt" style="width:728px; height:90px;"><script type="text/javascript">\n' + '//<![CDATA[\n' + 'try { googletag.cmd.push(function() { googletag.display( "qlub_topads-gpt" ); }); } catch( err ) {}\n' + '//]]>\n' + '</script></div>' ) ;
+	return true ;
+}
+
+function qlub_init_pubbottomads( siteads ) {
+	if ( window.qlub_ads_cmd ) {
+		$( "#qlub_bottomads-gpt" ).remove() ;
+		var $target = qlub_addTarget( "qlub_bottomads" ) ;
+		$target.append( '<div id="qlub_bottomads-gpt" style="width:468px; height:60px;"></div>' ) ;
+		try {
+			googletag.cmd.push(function() {
+				googletag.display( "qlub_bottomads-gpt" ) ;
+			} );
+		} catch( err ) {}
+		return true ;
+	}
+	document.write( '<div id="qlub_bottomads-gpt" style="width:468px; height:60px;"><script type="text/javascript">\n' + '//<![CDATA[\n' + 'try { googletag.cmd.push(function() { googletag.display( "qlub_bottomads-gpt" ); }); } catch( err ) {}\n' + '//]]>\n' + '</script></div>' ) ;
+	return true ;
+}
+
+function qlub_init_pubrightads( siteads ) {
+	if ( ! window.pages_adsdimensions ) return false ;
+	var x = pages_adsdimensions() ;
+	var w = x.width - x.paddingleft - x.paddingright ;
+	var td = document.getElementById( "qlub_ads_addright_elem" ) ;
+	if ( td ) {
+		td.style.width = w + "px" ;
+		td.style.padding = "6px " + x.paddingright + "px 6px " + x.paddingleft + "px" ;
+	}
+	if ( window.qlub_ads_cmd ) {
+		$( "#qlub_rightads-gpt" ).remove() ;
+		var $target = qlub_addTarget( "qlub_rightads" ) ;
+		if ( $target.length == 0 ) $target = qlub_addTarget( "qlub_ads_addright_elem" ) ;
+		$target.append( '<div id="qlub_rightads-gpt" style="width:120px; height:600px;"></div>' ) ;
+		try {
+			googletag.cmd.push(function() {
+				googletag.display( "qlub_rightads-gpt" ) ;
+			} );
+		} catch( err ) {}
+		return true ;
+	}
+	//var slot = (  q_currsvcishome() ) ? "Accueil_HautPage_Skycraper_120x600" : "Pages_HautPage_Skycraper_120x600";
+	//if ( ! window.q_ads_version ) slot = "ad_right" ;
+	document.write( '<div id="qlub_rightads-gpt" style="width:120px; height:600px;"><script type="text/javascript">\n' + '//<![CDATA[\n' + 'try { googletag.cmd.push(function() { googletag.display( "qlub_rightads-gpt" ); }); } catch( err ) {}\n' + '//]]>\n' + '</script></div>' ) ;
+	return true ;
+}
+
+/*function qlub_ads_head_loadads() {
+	if ( q_pagemode() == "makeweb" || q_pagemode() == "edit" ) return ;
+	if ( qlub_noads_forie() ) return ;
+	
+	document.write( '<script type="text/javascript">\n' 
+	+ '//<![CDATA[\n' 
+	+ 'try { GS_googleAddAdSenseService("ca-pub-7347844944087363"); GS_googleEnableAllServices(); } catch( err ) {}\n' 
+	+ '//]]>\n' 
+	+ '</script>' ) ;
+	document.write( '<script type="text/javascript" src="/clients/qlubads0910/ads-google-step2.js"></script>' ) ; 
+	window.q_ads_version = "2.0" ;
+}*/
+
+function qlub_ads_head_loadads() {
+	if ( q_pagemode() == "makeweb" || q_pagemode() == "edit" ) return ;
+	if ( qlub_noads_forie() ) return ;
+	var b = ( qlub_ads_checkadd( "top" ) == "pub" ) || ( qlub_ads_checkadd( "right" ) == "pub" ) || ( qlub_ads_checkadd( "bottom" ) == "pub" ) ;
+	if ( ! b ) return ;// on n'est pas en mode pub on ne charge rien de plus pour Publisher
+	quomodo.events.addListener( "finish_init.page" , function( eventDesc, eventName ){
+		var b = false ;
+		if ( ! b ) {
+			var sites = [ "top", "right", "bottom" ] ;
+			for ( var i = 0 ; i < sites.length ; i++ ) {
+				var ads = ads_getad( sites[ i ] ) ;
+				if ( ads ) {
+					for ( var j = 0 ; j < ads.length ; j++ ) {
+						if ( ads[ j ] == "pub" ) {
+							b = true ;
+							break ;
+						}
+					}
+				}
+				if ( b ) break ;
+			}
+		}
+/*
+		b = b || ( ads_getad( "top" ) == "pub" ) ;
+		b = b || ( ads_getad( "right" ) == "pub" ) ;
+		b = b || ( ads_getad( "bottom" ) == "pub" ) ;
+*/
+/*
+		var accept_cookies = getcookie( "accept-cookies" ) ;
+		var cookies_enabled = ( window.cookiesEnabled || function() {
+			setcookie( "test-cookies-enabled", "1", 1, true ) ;
+			var res = getcookie( "test-cookies-enabled" ) == "1" ;
+			deletecookie( "test-cookies-enabled", true ) ;
+			return res ;
+		} )() ;
+		var cookies_accepted = ( function() {
+			if ( accept_cookies == "0" ) return false ;
+			if ( ! cookies_enabled ) return true ;
+			if ( accept_cookies != "1" ) {
+				cookiesConfirm() ;
+				return false ;
+			}
+			return true ;
+		} )() ;
+*/
+		if ( ! b ) return ;
+		
+		if ( ! document.getElementById( "gpt-googletagservices" ) ) {
+			var gads = document.createElement("script");
+			gads.async = true;
+			gads.type = "text/javascript";
+			var useSSL = "https:" == document.location.protocol;
+			gads.src = (useSSL ? "https:" : "http:") + "//www.googletagservices.com/tag/js/gpt.js";
+			var node = document.getElementsByTagName("script")[0];
+			node.parentNode.insertBefore(gads, node);
+			gads.id = "gpt-googletagservices" ;
+		}
+	} ) ;
+
+	googletag.cmd.push( function() {
+		googletag.pubads().setRequestNonPersonalizedAds(1) ;
+		var mappingTop = googletag.sizeMapping().
+			addSize( [769, 0], [728, 90] ).
+			addSize( [0, 0], [320, 50] ).
+			build() ;
+		var mappingBottom = googletag.sizeMapping().
+			addSize( [769, 0], [468, 60] ).
+			addSize( [0, 0], [320, 50] ).
+			build() ;
+		var mappingRight = googletag.sizeMapping().
+			addSize( [769, 0], [120, 600] ).
+			addSize( [0, 0], [] ).
+			build() ;
+		if ( q_currsvcishome() ) {
+			googletag.defineSlot( "/1251785/Accueil_BasPage_Centre_468x60", [468, 60], "qlub_bottomads-gpt" ).defineSizeMapping( mappingBottom ).addService(googletag.pubads());
+			googletag.defineSlot( "/1251785/Accueil_HautPage_Centre_728x90", [728, 90], "qlub_topads-gpt" ).defineSizeMapping( mappingTop ).addService(googletag.pubads());
+			googletag.defineSlot( "/1251785/Accueil_HautPage_Skycraper_120x600", [120, 600], "qlub_rightads-gpt" ).defineSizeMapping( mappingRight ).addService(googletag.pubads());
+		} else {
+			googletag.defineSlot( "/1251785/Pages_BasPage_Centre_468x60", [468, 60], "qlub_bottomads-gpt" ).defineSizeMapping( mappingBottom ).addService(googletag.pubads());
+			googletag.defineSlot( "/1251785/Pages_HautPage_Centre_728x90", [728, 90], "qlub_topads-gpt" ).defineSizeMapping( mappingTop).addService(googletag.pubads());
+			googletag.defineSlot( "/1251785/Pages_HautPage_Skycraper_120x600", [120, 600], "qlub_rightads-gpt" ).defineSizeMapping( mappingRight ).addService(googletag.pubads());
+		}
+		googletag.pubads().enableSingleRequest();
+		googletag.enableServices();
+	});
+	var bgcolor = ( window.club_siteelemscolor && club_siteelemscolor.cfs ) ? club_siteelemscolor.cfs : "rgb(255,255,255)"; 
+	bgcolor = rgb2hex( bgcolor ).replace( "#", "" );
+	googletag.cmd.push( function() {
+		googletag.pubads().set("adsense_background_color", bgcolor );
+	} );
+	googletag.cmd.push( function() {
+		googletag.pubads().setTargeting( "Use", ( q_spaceparam( "infos" ) ) ? q_spaceparam( "infos" ).subscribe_use : "other" ) ;
+		googletag.pubads().setTargeting( "Sport", ( q_spaceparam( "infos" ) ) ? q_spaceparam( "infos" ).type : "other" ) ;
+	});
+}
+
+var ads_server_js_loaded = true ;
+if ( window.qdyn_loaded ) qdyn_loaded ( "ads_server_js_loaded" ) ;
